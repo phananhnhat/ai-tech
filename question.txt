@@ -3,7 +3,7 @@ Về cơ bản thì gần như toàn bộ quá trình phát triển phần mềm
 Để AI hoạt động 
 
 Quy trình sử dụng AI thường thì có thể tóm gọn trong các bước:
-1. Setup rules, skills, multi angent cho AI, giúp AI thông minh hơn.
+1. Cài đặt rules, skills, multi angent, mcp... cho AI, giúp AI thông minh hơn, quy tắc hơn, tiết kiệm hơn
 1. Chuẩn bị input: tài liệu thiết kế, design, context, giải pháp nếu có ...
    Trước đó các thông tin này có thể đã được tiêu chuẩn, clean, research qua những lần sử dụng AI trước.
 2. Dùng AI viết plan, document đặc tả.

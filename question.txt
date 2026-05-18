@@ -1,0 +1,25 @@
+Về cơ bản thì gần như toàn bộ quá trình phát triển phần mềm của mình đều đang dùng AI để hỗ trợ hoặc AI trực tiếp thực thi, từ việc đọc, hiểu, tóm tắt, viết tài liệu, nghiên cứu giải pháp, học hỏi và việc viết code.
+90% code hiện tại là đang do AI viết ra, và việc review lại code đã viết cũng dùng AI trước khi đến lượt mình trực tiếp xem xét, hiện tại chắc chỉ trừ việc giao tiếp trong công việc là mình chưa dùng AI vào nhiều.
+Để AI hoạt động 
+
+Quy trình sử dụng AI thường thì có thể tóm gọn trong các bước:
+1. Setup rules, skills, multi angent cho AI, giúp AI thông minh hơn.
+1. Chuẩn bị input: tài liệu thiết kế, design, context, giải pháp nếu có ...
+   Trước đó các thông tin này có thể đã được tiêu chuẩn, clean, research qua những lần sử dụng AI trước.
+2. Dùng AI viết plan, document đặc tả.
+   Với các công việc nhỏ thì bước này mình có thể bỏ qua, ko cần thiết tốn token vào việc này. Nhưng với những task lớn thì cần thiết có plan và thiết kế, mô tả những thứ đã làm, để dùng làm tài liệu cho những lần sau,...
+3. Cho AI thực thi theo plan, document vừa tạo
+4. Review, test lại những thứ đc AI sinh ra: code, tài liệu, tệp ...
+   Có thể dùng 1 AI khác để review qua trước những thứ này trước khi mình trực tiếp đọc 1 lần
+   Riêng việc test lại 1 chức năng phần mềm vừa đc AI làm tự mình vẫn đang làm thủ công, nhưng cũng có thể dùng AI để tạo test case, hoặc thậm chí là tự động test luôn, nhưng hiện tại chưa setup đc với công việc thực tế.
+
+Khi gặp vấn đề: về đã phần thì gặp là do bước 1 input mình chưa đầy đủ nên AI có thể hiểu sai, cần điều chỉnh lại input hoặc viết prompt mới để update thêm.
+Tuy nhiên có 1 số vấn đề thực tế là AI bịa ra => review lại thông tin AI đưa ra.
+Hoặc 1 số lỗi mà AI không fix đc có thế do AI quên mất thông tin đã nạp, hoặc AI thiếu thông tin để fix lỗi đó, bản thân mình cũng ko biết thông tin lỗi có tồn tài hoặc thậm chí xấu nhất là không có thông tin.
+Trường hợp này thì thường mình phải áp dụng kĩ năng kĩ sư thôi, trực tiếp debug để lấy thông tin thêm, nếu tự phát hiện ra lỗi thì ổn, còn không thì vẫn phải AI support để tiếp tục.
+
+Theo anh thì quy trình hoặc cách sử dụng AI nào là tối ưu/best practice ?
+Thật sự thì mình cũng chưa biết cách sử dụng AI nào là tối ưu, vì mình cũng đang trong quá trình làm và tìm hiểu thêm.
+Công cụ AI mới sinh ra theo từng tuần, từng tháng, nhưng có thể nói là cách mình đang dùng hiện tại cũng đang đáp ứng ổn cho công việc, có thể áp dụng cho nhiều việc khác nhau
+Và cũng có thể điều chỉnh linh hoạt tùy vào từng trường hợp cụ thể. Quan trọng là mình kiểm soát được những thông tin của AI, biết đúng hay sai, check lại cẩn thận.
+Điều này may mắn nhờ vào kinh nghiệm và kiến thức của mình tích lũy từ thời chưa có AI mạnh như bây giờ

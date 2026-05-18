@@ -4,12 +4,12 @@ Về cơ bản thì gần như toàn bộ quá trình phát triển phần mềm
 
 Quy trình sử dụng AI thường thì có thể tóm gọn trong các bước:
 1. Cài đặt rules, skills, multi angent, mcp... cho AI, giúp AI thông minh hơn, quy tắc hơn, tiết kiệm hơn
-1. Chuẩn bị input: tài liệu thiết kế, design, context, giải pháp nếu có ...
+2. Chuẩn bị input: thông tin task, tài liệu thiết kế, design, context, giải pháp nếu có ...
    Trước đó các thông tin này có thể đã được tiêu chuẩn, clean, research qua những lần sử dụng AI trước.
-2. Dùng AI viết plan, document đặc tả.
+3. Dùng AI viết plan, document đặc tả.
    Với các công việc nhỏ thì bước này mình có thể bỏ qua, ko cần thiết tốn token vào việc này. Nhưng với những task lớn thì cần thiết có plan và thiết kế, mô tả những thứ đã làm, để dùng làm tài liệu cho những lần sau,...
-3. Cho AI thực thi theo plan, document vừa tạo
-4. Review, test lại những thứ đc AI sinh ra: code, tài liệu, tệp ...
+4. Cho AI thực thi theo plan, document vừa tạo
+5. Review, test lại những thứ đc AI sinh ra: code, tài liệu, tệp ...
    Có thể dùng 1 AI khác để review qua trước những thứ này trước khi mình trực tiếp đọc 1 lần
    Riêng việc test lại 1 chức năng phần mềm vừa đc AI làm tự mình vẫn đang làm thủ công, nhưng cũng có thể dùng AI để tạo test case, hoặc thậm chí là tự động test luôn, nhưng hiện tại chưa setup đc với công việc thực tế.
 
